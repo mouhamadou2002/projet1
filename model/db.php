@@ -2,10 +2,10 @@
 
 
 $serveur="localhost";
-$port = "5432";
+$port = "5433";
 $user="postgres";
-$pwd="passer";
-$dbname="l3_iage_2024";
+$pwd="mbour2022";
+$dbname="l3_GDA_2024";
 
 $connexion = pg_connect("host=$serveur port=$port dbname=$dbname user=$user password=$pwd");
 
@@ -14,8 +14,6 @@ if(!$connexion){
 }else{
    echo "succes";
 }
-
-
 
 
 ?>

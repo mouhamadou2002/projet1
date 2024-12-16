@@ -9,6 +9,9 @@
     }else{
         require_once './controller/categorieController.php';
     }
+    if($controller == 'utilisateur'){
+        require_once './controller/utilisateurController.php';
+    }
 
     if(isset($_GET['action']) && !empty($_GET['action'])){
         if($_GET['action']=='add'){
